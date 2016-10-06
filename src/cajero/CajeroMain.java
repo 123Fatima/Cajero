@@ -15,7 +15,7 @@ public class CajeroMain{
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Cajero Esto= new Cajero();
-        Esto.setVisible(true);
+        Cajero esto= new Cajero();
+        esto.setVisible(true);
     }
 }

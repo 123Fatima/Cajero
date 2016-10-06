@@ -88,6 +88,10 @@ public Cajero(){
         Texto = new JLabel("Nombre: ");
         Texto.setBounds(40, 60, 70, 9);
         add(Texto);
+        //se agrega una etiqueta en blanco para ajuste de linea
+        Texto = new JLabel("");
+        Texto.setBounds(40, 80, 70, 9);
+        add(Texto);
 
         
         lista = new ArrayList();
